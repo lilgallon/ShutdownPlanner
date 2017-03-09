@@ -21,6 +21,9 @@ namespace PlanificateurArret
             InitializeComponent();
         }
 
+
+
+
         private void consoleLaunch()
         {
             cmd.StartInfo.FileName = "cmd.exe";
@@ -76,6 +79,21 @@ namespace PlanificateurArret
             consoleLaunch();
             cmd.StandardInput.WriteLine("shutdown /a");
             consoleClose();
+        }
+
+        private void timePicker_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            currentTimeLabel.Text = "Il est " + DateTime.Now.ToString("HH:mm:ss tt");
+        }
+
+        private void linkWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("http://swellchaser.pagesperso-orange.fr");
         }
 
     }
