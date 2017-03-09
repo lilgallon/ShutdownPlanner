@@ -15,9 +15,28 @@ namespace PlanificateurArret
         private string secondsStr;
         private string commandShutdown;
         private string commandRestart;
+        private Process cmd = new Process();
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void consoleLaunch()
+        {
+            cmd.StartInfo.FileName = "cmd.exe";
+            cmd.StartInfo.RedirectStandardInput = true;
+            cmd.StartInfo.RedirectStandardOutput = true;
+            cmd.StartInfo.CreateNoWindow = true;
+            cmd.StartInfo.UseShellExecute = false;
+            cmd.Start();
+        }
+
+        private void consoleClose()
+        {
+            cmd.StandardInput.Flush();
+            cmd.StandardInput.Close();
+            cmd.WaitForExit();
+            Console.WriteLine(cmd.StandardOutput.ReadToEnd());
         }
 
         private void planningButton_Click(object sender, EventArgs e)
@@ -28,19 +47,14 @@ namespace PlanificateurArret
 
             minutes = timePicker.Value.Minute;
             hour = timePicker.Value.Hour;
-            seconds = (minutes * 60 + hour * 3600)-secondsCurrent;
+            seconds = (minutes * 60 + hour * 3600) - secondsCurrent;
             secondsStr = seconds.ToString();
             commandShutdown = "shutdown -s -t " + secondsStr;
             commandRestart = "shutdown -a -t " + secondsStr;
 
             // Console
-            Process cmd = new Process();
-            cmd.StartInfo.FileName = "cmd.exe";
-            cmd.StartInfo.RedirectStandardInput = true;
-            cmd.StartInfo.RedirectStandardOutput = true;
-            cmd.StartInfo.CreateNoWindow = true;
-            cmd.StartInfo.UseShellExecute = false;
-            cmd.Start();
+
+            consoleLaunch();
 
             cmd.StandardInput.WriteLine("shutdown /a"); // cancel operation (used to reset here)
 
@@ -52,12 +66,16 @@ namespace PlanificateurArret
             {
                 cmd.StandardInput.WriteLine(commandShutdown);
             }
-      
-            cmd.StandardInput.Flush();
-            cmd.StandardInput.Close();
-            cmd.WaitForExit();
-            Console.WriteLine(cmd.StandardOutput.ReadToEnd());
 
+            consoleClose();
+
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            consoleLaunch();
+            cmd.StandardInput.WriteLine("shutdown /a");
+            consoleClose();
         }
 
     }
