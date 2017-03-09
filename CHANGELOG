@@ -1,3 +1,11 @@
+-------------
++ = Add
+* = Fix / Improved
+- = Delete
+& = In dev
+-------------
+
+
 V1 :
 + Hour / Minutes picker
 + Restart / Shutdown mode
@@ -13,3 +21,6 @@ V3 :
 * Reorganization
 &&V4 :
 &&* Resize blocked
+&&+ Label indicating last planification
+&&* In real time update
+&&+ Chrono
