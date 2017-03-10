@@ -9,3 +9,15 @@ E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\
 E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\obj\Debug\fr\PlanificateurArret.resources.dll
 E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.exe
 E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.pdb
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\bin\Debug\PlanificateurArret.exe.config
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.exe
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.pdb
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\bin\Debug\PlanificateurArret.exe
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\bin\Debug\PlanificateurArret.pdb
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\bin\Debug\fr\PlanificateurArret.resources.dll
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.csprojResolveAssemblyReference.cache
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.Form1.resources
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.Properties.Resources.resources
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.Form1.fr.resources
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.csproj.GenerateResource.Cache
+\\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\fr\PlanificateurArret.resources.dll

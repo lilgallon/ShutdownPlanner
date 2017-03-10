@@ -36,7 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.currentTimeLabel = new System.Windows.Forms.Label();
             this.linkWebsite = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.statut = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timePicker
@@ -83,24 +83,25 @@
             this.linkWebsite.TabStop = true;
             this.linkWebsite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkWebsite_LinkClicked);
             // 
-            // label2
+            // statut
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.statut, "statut");
+            this.statut.Name = "statut";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.statut);
             this.Controls.Add(this.linkWebsite);
             this.Controls.Add(this.currentTimeLabel);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.checkBoxRestart);
             this.Controls.Add(this.planningButton);
             this.Controls.Add(this.timePicker);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -116,7 +117,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label currentTimeLabel;
         private System.Windows.Forms.LinkLabel linkWebsite;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label statut;
     }
 }
 

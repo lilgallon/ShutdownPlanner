@@ -2,7 +2,8 @@
 + = Add
 * = Fix / Improved
 - = Delete
-& = In dev
+& = Possible new feature
+~ = In dev
 -------------
 
 
@@ -19,8 +20,9 @@ V3 :
 + Website
 + Current time
 * Reorganization
-&&V4 :
-&&* Resize blocked
+V4 :
+* Resize blocked
+~+ Statut
 &&+ Label indicating last planification
-&&* In real time update
+~* In real time update
 &&+ Chrono

@@ -6,16 +6,8 @@ namespace PlanificateurArret
 {
     public partial class Form1 : Form
     {
-        private int minutes;
-        private int hour;
-        private int seconds;
-        private int minutesCurrent;
-        private int hourCurrent;
-        private int secondsCurrent;
-        private string secondsStr;
-        private string commandShutdown;
-        private string commandRestart;
         private Process cmd = new Process();
+        private bool planned = false;
         public Form1()
         {
             InitializeComponent();
@@ -44,6 +36,10 @@ namespace PlanificateurArret
 
         private void planningButton_Click(object sender, EventArgs e)
         {
+           int minutes, hour, seconds, minutesCurrent, hourCurrent, secondsCurrent;
+            string secondsStr, commandShutdown, commandRestart;
+            planned = true;
+
             hourCurrent = DateTime.Now.Hour;
             minutesCurrent = DateTime.Now.Minute;
             secondsCurrent = hourCurrent * 3600 + minutesCurrent * 60;
@@ -89,12 +85,22 @@ namespace PlanificateurArret
         private void Form1_Load(object sender, EventArgs e)
         {
             currentTimeLabel.Text = "Il est " + DateTime.Now.ToString("HH:mm:ss tt");
+            statut.Text = "Statut : ";
+            if (planned)
+            {
+                statut.Text += "Planifié.";
+            }
+            else
+            {
+                statut.Text += "Non planifié.";
+            }
+            Refresh();
+            
         }
 
         private void linkWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("http://swellchaser.pagesperso-orange.fr");
         }
-
     }
 }
