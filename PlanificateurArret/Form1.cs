@@ -36,8 +36,8 @@ namespace PlanificateurArret
 
         private void planningButton_Click(object sender, EventArgs e)
         {
-           int minutes, hour, seconds, minutesCurrent, hourCurrent, secondsCurrent;
-            string secondsStr, commandShutdown, commandRestart;
+            int minutes, hour, seconds, minutesCurrent, hourCurrent, secondsCurrent;
+            string secondsStr, commandShutdown, commandRestart, command, commandForce;
             planned = true;
 
             hourCurrent = DateTime.Now.Hour;
@@ -48,8 +48,11 @@ namespace PlanificateurArret
             hour = timePicker.Value.Hour;
             seconds = (minutes * 60 + hour * 3600) - secondsCurrent;
             secondsStr = seconds.ToString();
-            commandShutdown = "shutdown -s -t " + secondsStr;
-            commandRestart = "shutdown -a -t " + secondsStr;
+            commandShutdown = "/s";
+            commandRestart = "/a" ;
+            commandForce = "/f";
+
+
 
             // Console
 
@@ -59,12 +62,29 @@ namespace PlanificateurArret
 
             if (checkBoxRestart.Checked)
             {
-                cmd.StandardInput.WriteLine(commandRestart);
+                if (checkBoxForce.Checked)
+                {
+                    command = "shutdown " + commandForce + " " +  commandRestart + " /t " + secondsStr;
+                }
+                else
+                {
+                    command = "shutdown " + commandRestart + " /t " + secondsStr;
+                }
             }
             else
             {
-                cmd.StandardInput.WriteLine(commandShutdown);
+                if (checkBoxForce.Checked)
+                {
+                    command = "shutdown " + commandForce + " " + commandShutdown + " /t " + secondsStr;
+                }
+                else
+                {
+                    command = "shutdown " + commandShutdown + " /t " + secondsStr;
+                }
+                
             }
+
+            cmd.StandardInput.WriteLine(command);
 
             consoleClose();
 
@@ -75,11 +95,6 @@ namespace PlanificateurArret
             consoleLaunch();
             cmd.StandardInput.WriteLine("shutdown /a");
             consoleClose();
-        }
-
-        private void timePicker_ValueChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)

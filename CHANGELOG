@@ -21,8 +21,11 @@ V3 :
 + Current time
 * Reorganization
 V4 :
+~* Window reorganization
 * Resize blocked
 ~+ Statut
 &&+ Label indicating last planification
 ~* In real time update
 &&+ Chrono
+~+ Shutdown message
+~* Code optimization

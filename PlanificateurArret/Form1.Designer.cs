@@ -37,6 +37,7 @@
             this.currentTimeLabel = new System.Windows.Forms.Label();
             this.linkWebsite = new System.Windows.Forms.LinkLabel();
             this.statut = new System.Windows.Forms.Label();
+            this.checkBoxForce = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // timePicker
@@ -44,7 +45,6 @@
             resources.ApplyResources(this.timePicker, "timePicker");
             this.timePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.timePicker.Name = "timePicker";
-            this.timePicker.ValueChanged += new System.EventHandler(this.timePicker_ValueChanged);
             // 
             // planningButton
             // 
@@ -88,11 +88,18 @@
             resources.ApplyResources(this.statut, "statut");
             this.statut.Name = "statut";
             // 
+            // checkBoxForce
+            // 
+            resources.ApplyResources(this.checkBoxForce, "checkBoxForce");
+            this.checkBoxForce.Name = "checkBoxForce";
+            this.checkBoxForce.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.checkBoxForce);
             this.Controls.Add(this.statut);
             this.Controls.Add(this.linkWebsite);
             this.Controls.Add(this.currentTimeLabel);
@@ -101,7 +108,6 @@
             this.Controls.Add(this.checkBoxRestart);
             this.Controls.Add(this.planningButton);
             this.Controls.Add(this.timePicker);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -118,6 +124,7 @@
         private System.Windows.Forms.Label currentTimeLabel;
         private System.Windows.Forms.LinkLabel linkWebsite;
         private System.Windows.Forms.Label statut;
+        private System.Windows.Forms.CheckBox checkBoxForce;
     }
 }
 

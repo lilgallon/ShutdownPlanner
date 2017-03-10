@@ -125,7 +125,11 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="timePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 29</value>
+    <value>20, 45</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="timePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="timePicker.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 29</value>
@@ -144,13 +148,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;timePicker.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
+  </data>
+  <data name="planningButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="planningButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 29</value>
+    <value>110, 45</value>
+  </data>
+  <data name="planningButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="planningButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 29</value>
+    <value>61, 29</value>
   </data>
   <data name="planningButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -168,13 +178,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;planningButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="checkBoxRestart.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBoxRestart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 73</value>
+    <value>152, 91</value>
+  </data>
+  <data name="checkBoxRestart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="checkBoxRestart.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
@@ -195,13 +208,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxRestart.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 29</value>
+    <value>171, 45</value>
+  </data>
+  <data name="cancelButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 29</value>
+    <value>62, 29</value>
   </data>
   <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -219,7 +235,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -228,7 +244,7 @@
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 1</value>
+    <value>21, 11</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 25</value>
@@ -249,7 +265,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="currentTimeLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -258,7 +274,7 @@
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="currentTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 104</value>
+    <value>23, 124</value>
   </data>
   <data name="currentTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 15</value>
@@ -282,13 +298,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;currentTimeLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="linkWebsite.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="linkWebsite.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 106</value>
+    <value>195, 154</value>
   </data>
   <data name="linkWebsite.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 13</value>
@@ -309,13 +325,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linkWebsite.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="statut.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="statut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 106</value>
+    <value>149, 126</value>
   </data>
   <data name="statut.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 13</value>
@@ -336,6 +352,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statut.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxForce.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxForce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 91</value>
+  </data>
+  <data name="checkBoxForce.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxForce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="checkBoxForce.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxForce.Text" xml:space="preserve">
+    <value>Forcer l'extinction</value>
+  </data>
+  <data name="&gt;&gt;checkBoxForce.Name" xml:space="preserve">
+    <value>checkBoxForce</value>
+  </data>
+  <data name="&gt;&gt;checkBoxForce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxForce.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxForce.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -344,8 +390,11 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>264, 128</value>
+    <value>251, 174</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1478,6 +1527,9 @@
         ////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////8=
 </value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Planificateur d'arret</value>
