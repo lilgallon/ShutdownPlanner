@@ -21,3 +21,4 @@ E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\
 \\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.exe
 \\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.pdb
 \\iut.bx1\Etudiants\Home\lgallon\Desktop\ProjetsPersos\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.csprojResolveAssemblyReference.cache
+E:\Bibliotheque nero\Documents\projetsGit\PlanificateurArret\PlanificateurArret\obj\Debug\PlanificateurArret.csprojResolveAssemblyReference.cache

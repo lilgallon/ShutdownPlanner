@@ -57,7 +57,7 @@
             // 
             resources.ApplyResources(this.checkBoxRestart, "checkBoxRestart");
             this.checkBoxRestart.Name = "checkBoxRestart";
-            this.checkBoxRestart.UseVisualStyleBackColor = true;
+            this.checkBoxRestart.UseVisualStyleBackColor = false;
             // 
             // cancelButton
             // 
@@ -92,7 +92,7 @@
             // 
             resources.ApplyResources(this.checkBoxForce, "checkBoxForce");
             this.checkBoxForce.Name = "checkBoxForce";
-            this.checkBoxForce.UseVisualStyleBackColor = true;
+            this.checkBoxForce.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
