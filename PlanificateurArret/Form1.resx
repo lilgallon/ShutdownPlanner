@@ -117,125 +117,95 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="timePicker.CustomFormat" xml:space="preserve">
+  <data name="timePickerr.CustomFormat" xml:space="preserve">
     <value>H:mm</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="timePicker.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="timePickerr.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="timePicker.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="timePickerr.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 51</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="timePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="timePickerr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="timePicker.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="timePickerr.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 29</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="timePicker.TabIndex" type="System.Int32, mscorlib">
+  <data name="timePickerr.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;timePicker.Name" xml:space="preserve">
-    <value>timePicker</value>
+  <data name="&gt;&gt;timePickerr.Name" xml:space="preserve">
+    <value>timePickerr</value>
   </data>
-  <data name="&gt;&gt;timePicker.Type" xml:space="preserve">
+  <data name="&gt;&gt;timePickerr.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;timePicker.Parent" xml:space="preserve">
+  <data name="&gt;&gt;timePickerr.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;timePicker.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;timePickerr.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="planningButton.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBoxRestartt.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="planningButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 100</value>
+  <data name="checkBoxRestartt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 49</value>
   </data>
-  <data name="planningButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBoxRestartt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="planningButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 48</value>
-  </data>
-  <data name="planningButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="planningButton.Text" xml:space="preserve">
-    <value>Planifier</value>
-  </data>
-  <data name="&gt;&gt;planningButton.Name" xml:space="preserve">
-    <value>planningButton</value>
-  </data>
-  <data name="&gt;&gt;planningButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;planningButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;planningButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="checkBoxRestart.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxRestart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 52</value>
-  </data>
-  <data name="checkBoxRestart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="checkBoxRestart.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="checkBoxRestartt.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
   </data>
-  <data name="checkBoxRestart.TabIndex" type="System.Int32, mscorlib">
+  <data name="checkBoxRestartt.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="checkBoxRestart.Text" xml:space="preserve">
+  <data name="checkBoxRestartt.Text" xml:space="preserve">
     <value>Redémarrer</value>
   </data>
-  <data name="&gt;&gt;checkBoxRestart.Name" xml:space="preserve">
-    <value>checkBoxRestart</value>
+  <data name="&gt;&gt;checkBoxRestartt.Name" xml:space="preserve">
+    <value>checkBoxRestartt</value>
   </data>
-  <data name="&gt;&gt;checkBoxRestart.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkBoxRestartt.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBoxRestart.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkBoxRestartt.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBoxRestart.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;checkBoxRestartt.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cancelButtonn.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 100</value>
   </data>
-  <data name="cancelButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cancelButtonn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cancelButtonn.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 48</value>
   </data>
-  <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="cancelButtonn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="cancelButton.Text" xml:space="preserve">
+  <data name="cancelButtonn.Text" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
-    <value>cancelButton</value>
+  <data name="&gt;&gt;cancelButtonn.Name" xml:space="preserve">
+    <value>cancelButtonn</value>
   </data>
-  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;cancelButtonn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cancelButtonn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;cancelButtonn.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -265,7 +235,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="currentTimeLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -274,7 +244,7 @@
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="currentTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 51</value>
+    <value>218, 48</value>
   </data>
   <data name="currentTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 15</value>
@@ -298,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;currentTimeLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="linkWebsite.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -325,13 +295,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linkWebsite.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="statut.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="statut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 73</value>
+    <value>218, 67</value>
   </data>
   <data name="statut.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 13</value>
@@ -352,13 +322,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statut.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="checkBoxForce.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBoxForce.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 69</value>
+    <value>99, 66</value>
   </data>
   <data name="checkBoxForce.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -382,6 +352,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxForce.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="planningButtonn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 100</value>
+  </data>
+  <data name="planningButtonn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="planningButtonn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="planningButtonn.Text" xml:space="preserve">
+    <value>Planifier</value>
+  </data>
+  <data name="&gt;&gt;planningButtonn.Name" xml:space="preserve">
+    <value>planningButtonn</value>
+  </data>
+  <data name="&gt;&gt;planningButtonn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planningButtonn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;planningButtonn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

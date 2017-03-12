@@ -130,9 +130,6 @@
   <data name="planningButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 42</value>
   </data>
-  <data name="planningButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 49</value>
-  </data>
   <data name="checkBoxRestart.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 90</value>
   </data>

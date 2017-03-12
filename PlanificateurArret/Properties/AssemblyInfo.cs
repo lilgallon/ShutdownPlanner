@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("PlanificateurArret")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("IUT de Bordeaux")]
+[assembly: AssemblyCompany("LilianG")]
 [assembly: AssemblyProduct("PlanificateurArret")]
-[assembly: AssemblyCopyright("Copyright © IUT de Bordeaux 2017")]
+[assembly: AssemblyCopyright("Copyright © LilianG 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -21,7 +21,7 @@ V3 :
 + Current time
 * Reorganization
 V4 :
-~* Window reorganization
+* Window reorganization
 * Resize blocked
 ~+ Statut
 &&+ Label indicating last planification

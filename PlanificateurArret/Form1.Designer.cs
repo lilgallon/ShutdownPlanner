@@ -29,42 +29,35 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.timePicker = new System.Windows.Forms.DateTimePicker();
-            this.planningButton = new System.Windows.Forms.Button();
-            this.checkBoxRestart = new System.Windows.Forms.CheckBox();
-            this.cancelButton = new System.Windows.Forms.Button();
+            this.timePickerr = new System.Windows.Forms.DateTimePicker();
+            this.checkBoxRestartt = new System.Windows.Forms.CheckBox();
+            this.cancelButtonn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.currentTimeLabel = new System.Windows.Forms.Label();
             this.linkWebsite = new System.Windows.Forms.LinkLabel();
             this.statut = new System.Windows.Forms.Label();
             this.checkBoxForce = new System.Windows.Forms.CheckBox();
+            this.planningButtonn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // timePicker
+            // timePickerr
             // 
-            resources.ApplyResources(this.timePicker, "timePicker");
-            this.timePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.timePicker.Name = "timePicker";
+            resources.ApplyResources(this.timePickerr, "timePickerr");
+            this.timePickerr.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.timePickerr.Name = "timePickerr";
             // 
-            // planningButton
+            // checkBoxRestartt
             // 
-            resources.ApplyResources(this.planningButton, "planningButton");
-            this.planningButton.Name = "planningButton";
-            this.planningButton.UseVisualStyleBackColor = true;
-            this.planningButton.Click += new System.EventHandler(this.planningButton_Click);
+            resources.ApplyResources(this.checkBoxRestartt, "checkBoxRestartt");
+            this.checkBoxRestartt.Name = "checkBoxRestartt";
+            this.checkBoxRestartt.UseVisualStyleBackColor = false;
             // 
-            // checkBoxRestart
+            // cancelButtonn
             // 
-            resources.ApplyResources(this.checkBoxRestart, "checkBoxRestart");
-            this.checkBoxRestart.Name = "checkBoxRestart";
-            this.checkBoxRestart.UseVisualStyleBackColor = false;
-            // 
-            // cancelButton
-            // 
-            resources.ApplyResources(this.cancelButton, "cancelButton");
-            this.cancelButton.Name = "cancelButton";
-            this.cancelButton.UseVisualStyleBackColor = true;
-            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
+            resources.ApplyResources(this.cancelButtonn, "cancelButtonn");
+            this.cancelButtonn.Name = "cancelButtonn";
+            this.cancelButtonn.UseVisualStyleBackColor = true;
+            this.cancelButtonn.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // label1
             // 
@@ -94,20 +87,27 @@
             this.checkBoxForce.Name = "checkBoxForce";
             this.checkBoxForce.UseVisualStyleBackColor = false;
             // 
+            // planningButtonn
+            // 
+            resources.ApplyResources(this.planningButtonn, "planningButtonn");
+            this.planningButtonn.Name = "planningButtonn";
+            this.planningButtonn.UseVisualStyleBackColor = true;
+            this.planningButtonn.Click += new System.EventHandler(this.planningButtonn_Click_1);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.planningButtonn);
             this.Controls.Add(this.checkBoxForce);
             this.Controls.Add(this.statut);
             this.Controls.Add(this.linkWebsite);
             this.Controls.Add(this.currentTimeLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cancelButton);
-            this.Controls.Add(this.checkBoxRestart);
-            this.Controls.Add(this.planningButton);
-            this.Controls.Add(this.timePicker);
+            this.Controls.Add(this.cancelButtonn);
+            this.Controls.Add(this.checkBoxRestartt);
+            this.Controls.Add(this.timePickerr);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -116,15 +116,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button planningButton;
-        private System.Windows.Forms.DateTimePicker timePicker;
-        private System.Windows.Forms.CheckBox checkBoxRestart;
-        private System.Windows.Forms.Button cancelButton;
+        private System.Windows.Forms.DateTimePicker timePickerr;
+        private System.Windows.Forms.CheckBox checkBoxRestartt;
+        private System.Windows.Forms.Button cancelButtonn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label currentTimeLabel;
         private System.Windows.Forms.LinkLabel linkWebsite;
         private System.Windows.Forms.Label statut;
         private System.Windows.Forms.CheckBox checkBoxForce;
+        private System.Windows.Forms.Button planningButtonn;
     }
 }
 
