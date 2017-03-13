@@ -39,6 +39,8 @@ namespace PlanificateurArret
             consoleLaunch();
             cmd.StandardInput.WriteLine("shutdown /a");
             consoleClose();
+            planned = false;
+            updateLabel();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +49,22 @@ namespace PlanificateurArret
             // https://technet.microsoft.com/en-us/library/cc755618(WS.10).aspx
             // https://technet.microsoft.com/en-us/library/cc772785(WS.10).aspx
             currentTimeLabel.Text = "Il est " + DateTime.Now.ToString("HH:mm:ss tt");
+            updateLabel();
+
+            Timer timer = new Timer();
+            timer.Interval = (1000); // 1 sec
+            timer.Tick += new EventHandler(timer_Tick);
+            timer.Start();
+
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            currentTimeLabel.Text = "Il est " + DateTime.Now.ToString("HH:mm:ss tt");
+        }
+
+        private void updateLabel()
+        {
             statut.Text = "Statut : ";
             if (planned)
             {
@@ -57,8 +75,8 @@ namespace PlanificateurArret
                 statut.Text += "Non planifié.";
             }
             Refresh();
-            
         }
+
 
         private void linkWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -128,7 +146,8 @@ namespace PlanificateurArret
             cmd.StandardInput.WriteLine(command);
             // Closes the console
             consoleClose();
-        }
 
+            updateLabel();
+        }
     }
 }
