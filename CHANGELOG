@@ -4,28 +4,30 @@
 - = Delete
 & = Possible new feature
 ~ = In dev
+§ = Too hard to add, maybe later
 -------------
 
 
-V1 :
+V1 09/03/17:
 + Hour / Minutes picker
 + Restart / Shutdown mode
 * Reset precedent planification
-V2 :
+V2 09/03/17:
 + Cancel button
 ~ Code clean
 + Title
 + Credit
-V3 :
+V3 10/03/17:
 + Website
 + Current time
 * Reorganization
-V4 :
+V4 13/03/17:
+§+ Label indicating last planification
 * Window reorganization
 * Resize blocked
 + Statut
-&&+ Label indicating last planification
 * In real time update
-&&+ Chrono
-~+ Shutdown message
+~+ Chrono
++ Shutdown message
+~+ Help window
 ~* Code optimization

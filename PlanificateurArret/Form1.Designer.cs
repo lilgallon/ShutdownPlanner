@@ -32,12 +32,18 @@
             this.timePickerr = new System.Windows.Forms.DateTimePicker();
             this.checkBoxRestartt = new System.Windows.Forms.CheckBox();
             this.cancelButtonn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.currentTimeLabel = new System.Windows.Forms.Label();
-            this.linkWebsite = new System.Windows.Forms.LinkLabel();
             this.statut = new System.Windows.Forms.Label();
             this.checkBoxForce = new System.Windows.Forms.CheckBox();
             this.planningButtonn = new System.Windows.Forms.Button();
+            this.reasonLabel = new System.Windows.Forms.Label();
+            this.textReason = new System.Windows.Forms.TextBox();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButtonInternet = new System.Windows.Forms.ToolStripButton();
+            this.toolStripHelp = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripChrono = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timePickerr
@@ -59,22 +65,10 @@
             this.cancelButtonn.UseVisualStyleBackColor = true;
             this.cancelButtonn.Click += new System.EventHandler(this.cancelButton_Click);
             // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
             // currentTimeLabel
             // 
             resources.ApplyResources(this.currentTimeLabel, "currentTimeLabel");
             this.currentTimeLabel.Name = "currentTimeLabel";
-            // 
-            // linkWebsite
-            // 
-            resources.ApplyResources(this.linkWebsite, "linkWebsite");
-            this.linkWebsite.Name = "linkWebsite";
-            this.linkWebsite.TabStop = true;
-            this.linkWebsite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkWebsite_LinkClicked);
             // 
             // statut
             // 
@@ -94,22 +88,72 @@
             this.planningButtonn.UseVisualStyleBackColor = true;
             this.planningButtonn.Click += new System.EventHandler(this.planningButtonn_Click_1);
             // 
+            // reasonLabel
+            // 
+            resources.ApplyResources(this.reasonLabel, "reasonLabel");
+            this.reasonLabel.Name = "reasonLabel";
+            // 
+            // textReason
+            // 
+            resources.ApplyResources(this.textReason, "textReason");
+            this.textReason.Name = "textReason";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButtonInternet,
+            this.toolStripHelp,
+            this.toolStripSeparator,
+            this.toolStripChrono});
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
+            this.toolStrip1.Name = "toolStrip1";
+            // 
+            // toolStripButtonInternet
+            // 
+            this.toolStripButtonInternet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.toolStripButtonInternet, "toolStripButtonInternet");
+            this.toolStripButtonInternet.Name = "toolStripButtonInternet";
+            this.toolStripButtonInternet.Click += new System.EventHandler(this.toolStripButtonInternet_Click);
+            // 
+            // toolStripHelp
+            // 
+            this.toolStripHelp.Name = "toolStripHelp";
+            resources.ApplyResources(this.toolStripHelp, "toolStripHelp");
+            this.toolStripHelp.Click += new System.EventHandler(this.toolStripHelp_Click);
+            // 
+            // toolStripChrono
+            // 
+            this.toolStripChrono.Name = "toolStripChrono";
+            resources.ApplyResources(this.toolStripChrono, "toolStripChrono");
+            // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            resources.ApplyResources(this.toolStripSeparator, "toolStripSeparator");
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.textReason);
+            this.Controls.Add(this.reasonLabel);
             this.Controls.Add(this.planningButtonn);
             this.Controls.Add(this.checkBoxForce);
             this.Controls.Add(this.statut);
-            this.Controls.Add(this.linkWebsite);
             this.Controls.Add(this.currentTimeLabel);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.cancelButtonn);
             this.Controls.Add(this.checkBoxRestartt);
             this.Controls.Add(this.timePickerr);
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,12 +163,17 @@
         private System.Windows.Forms.DateTimePicker timePickerr;
         private System.Windows.Forms.CheckBox checkBoxRestartt;
         private System.Windows.Forms.Button cancelButtonn;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label currentTimeLabel;
-        private System.Windows.Forms.LinkLabel linkWebsite;
         private System.Windows.Forms.Label statut;
         private System.Windows.Forms.CheckBox checkBoxForce;
         private System.Windows.Forms.Button planningButtonn;
+        private System.Windows.Forms.Label reasonLabel;
+        private System.Windows.Forms.TextBox textReason;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButtonInternet;
+        private System.Windows.Forms.ToolStripLabel toolStripHelp;
+        private System.Windows.Forms.ToolStripLabel toolStripChrono;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
     }
 }
 
