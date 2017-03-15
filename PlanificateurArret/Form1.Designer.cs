@@ -41,8 +41,9 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonInternet = new System.Windows.Forms.ToolStripButton();
             this.toolStripHelp = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripChrono = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripChrono = new System.Windows.Forms.ToolStripLabel();
+            this.tooStripLicence = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,6 +105,7 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonInternet,
             this.toolStripHelp,
+            this.tooStripLicence,
             this.toolStripSeparator,
             this.toolStripChrono});
             resources.ApplyResources(this.toolStrip1, "toolStrip1");
@@ -122,15 +124,21 @@
             resources.ApplyResources(this.toolStripHelp, "toolStripHelp");
             this.toolStripHelp.Click += new System.EventHandler(this.toolStripHelp_Click);
             // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            resources.ApplyResources(this.toolStripSeparator, "toolStripSeparator");
+            // 
             // toolStripChrono
             // 
             this.toolStripChrono.Name = "toolStripChrono";
             resources.ApplyResources(this.toolStripChrono, "toolStripChrono");
             // 
-            // toolStripSeparator
+            // tooStripLicence
             // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            resources.ApplyResources(this.toolStripSeparator, "toolStripSeparator");
+            this.tooStripLicence.Name = "tooStripLicence";
+            resources.ApplyResources(this.tooStripLicence, "tooStripLicence");
+            this.tooStripLicence.Click += new System.EventHandler(this.tooStripLicence_Click);
             // 
             // Form1
             // 
@@ -147,7 +155,7 @@
             this.Controls.Add(this.cancelButtonn);
             this.Controls.Add(this.checkBoxRestartt);
             this.Controls.Add(this.timePickerr);
-            this.HelpButton = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -174,6 +182,7 @@
         private System.Windows.Forms.ToolStripLabel toolStripHelp;
         private System.Windows.Forms.ToolStripLabel toolStripChrono;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
+        private System.Windows.Forms.ToolStripLabel tooStripLicence;
     }
 }
 

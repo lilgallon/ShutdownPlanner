@@ -186,23 +186,16 @@ namespace PlanificateurArret
         // Help box
         private void toolStripHelp_Click(object sender, EventArgs e)
         {
-            Form2 helpBox = new Form2();
+
+            Aide helpBox = new Aide();
             helpBox.Show();
         }
 
-    }
-    
-    public class Form2 : Form
-    {
-        public Form2()
+        private void tooStripLicence_Click(object sender, EventArgs e)
         {
-            Text = "Aide";
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            Label helpText = new Label();
-            helpText.Location = new Point(10, 10);
-            helpText.Text = "L'option redémarrer permet de redemarrer l'ordinateur. L'option forcer force l'ordinateur lors de son extinction, " +
-                "c'est à dire qu'aucun programme ne pourra empecher sa fermeture.";
+            Process.Start("https://creativecommons.org/licenses/by-nc-nd/3.0/fr/");
         }
     }
+   
     
 }

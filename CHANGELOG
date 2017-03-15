@@ -4,7 +4,7 @@
 - = Delete
 & = Possible new feature
 ~ = In dev
-§ = Too hard to add, maybe later
+%= Too hard to add, maybe later
 -------------
 
 
@@ -21,13 +21,16 @@ V3 10/03/17:
 + Website
 + Current time
 * Reorganization
-V4 13/03/17:
-§+ Label indicating last planification
+V4 15/03/17:
 * Window reorganization
 * Resize blocked
 + Statut
 * In real time update
-~+ Chrono
 + Shutdown message
-~+ Help window
-~* Code optimization
++ Help window
+* Code optimization
+V5 :
+&+ Label indicating last planification
+&+ Chrono
+&+ English
+&* Uniformization of the code (english)
