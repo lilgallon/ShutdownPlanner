@@ -33,18 +33,19 @@
             this.checkBoxRestartt = new System.Windows.Forms.CheckBox();
             this.cancelButtonn = new System.Windows.Forms.Button();
             this.currentTimeLabel = new System.Windows.Forms.Label();
-            this.statut = new System.Windows.Forms.Label();
             this.checkBoxForce = new System.Windows.Forms.CheckBox();
             this.planningButtonn = new System.Windows.Forms.Button();
-            this.reasonLabel = new System.Windows.Forms.Label();
             this.textReason = new System.Windows.Forms.TextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButtonInternet = new System.Windows.Forms.ToolStripButton();
-            this.toolStripHelp = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripChrono = new System.Windows.Forms.ToolStripLabel();
-            this.tooStripLicence = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.infoLabel = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // timePickerr
@@ -71,11 +72,6 @@
             resources.ApplyResources(this.currentTimeLabel, "currentTimeLabel");
             this.currentTimeLabel.Name = "currentTimeLabel";
             // 
-            // statut
-            // 
-            resources.ApplyResources(this.statut, "statut");
-            this.statut.Name = "statut";
-            // 
             // checkBoxForce
             // 
             resources.ApplyResources(this.checkBoxForce, "checkBoxForce");
@@ -89,11 +85,6 @@
             this.planningButtonn.UseVisualStyleBackColor = true;
             this.planningButtonn.Click += new System.EventHandler(this.planningButtonn_Click_1);
             // 
-            // reasonLabel
-            // 
-            resources.ApplyResources(this.reasonLabel, "reasonLabel");
-            this.reasonLabel.Name = "reasonLabel";
-            // 
             // textReason
             // 
             resources.ApplyResources(this.textReason, "textReason");
@@ -103,58 +94,63 @@
             // 
             this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButtonInternet,
-            this.toolStripHelp,
-            this.tooStripLicence,
-            this.toolStripSeparator,
-            this.toolStripChrono});
+            this.toolStripDropDownButton1});
             resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Name = "toolStrip1";
             // 
-            // toolStripButtonInternet
+            // toolStripDropDownButton1
             // 
-            this.toolStripButtonInternet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.toolStripButtonInternet, "toolStripButtonInternet");
-            this.toolStripButtonInternet.Name = "toolStripButtonInternet";
-            this.toolStripButtonInternet.Click += new System.EventHandler(this.toolStripButtonInternet_Click);
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
             // 
-            // toolStripHelp
+            // groupBox1
             // 
-            this.toolStripHelp.Name = "toolStripHelp";
-            resources.ApplyResources(this.toolStripHelp, "toolStripHelp");
-            this.toolStripHelp.Click += new System.EventHandler(this.toolStripHelp_Click);
+            this.groupBox1.Controls.Add(this.checkBoxRestartt);
+            this.groupBox1.Controls.Add(this.checkBoxForce);
+            this.groupBox1.Controls.Add(this.textReason);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
             // 
-            // toolStripSeparator
+            // toolStripMenuItem1
             // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            resources.ApplyResources(this.toolStripSeparator, "toolStripSeparator");
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
-            // toolStripChrono
+            // groupBox2
             // 
-            this.toolStripChrono.Name = "toolStripChrono";
-            resources.ApplyResources(this.toolStripChrono, "toolStripChrono");
+            this.groupBox2.Controls.Add(this.infoLabel);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.timePickerr);
+            this.groupBox2.Controls.Add(this.currentTimeLabel);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
             // 
-            // tooStripLicence
+            // label1
             // 
-            this.tooStripLicence.Name = "tooStripLicence";
-            resources.ApplyResources(this.tooStripLicence, "tooStripLicence");
-            this.tooStripLicence.Click += new System.EventHandler(this.tooStripLicence_Click);
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // infoLabel
+            // 
+            resources.ApplyResources(this.infoLabel, "infoLabel");
+            this.infoLabel.Name = "infoLabel";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.textReason);
-            this.Controls.Add(this.reasonLabel);
             this.Controls.Add(this.planningButtonn);
-            this.Controls.Add(this.checkBoxForce);
-            this.Controls.Add(this.statut);
-            this.Controls.Add(this.currentTimeLabel);
             this.Controls.Add(this.cancelButtonn);
-            this.Controls.Add(this.checkBoxRestartt);
-            this.Controls.Add(this.timePickerr);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -162,6 +158,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,17 +172,16 @@
         private System.Windows.Forms.CheckBox checkBoxRestartt;
         private System.Windows.Forms.Button cancelButtonn;
         private System.Windows.Forms.Label currentTimeLabel;
-        private System.Windows.Forms.Label statut;
         private System.Windows.Forms.CheckBox checkBoxForce;
         private System.Windows.Forms.Button planningButtonn;
-        private System.Windows.Forms.Label reasonLabel;
         private System.Windows.Forms.TextBox textReason;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonInternet;
-        private System.Windows.Forms.ToolStripLabel toolStripHelp;
-        private System.Windows.Forms.ToolStripLabel toolStripChrono;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripLabel tooStripLicence;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label infoLabel;
     }
 }
 

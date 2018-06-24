@@ -118,17 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Redémarrer: Permet de redémarrer l'ordinateur à la planification
-Forcer: Permet de forcer l'arret de l'ordinateur. C'est-à-dire que
-     même si une application empêche l'arret, l'ordinateur arretera
-     le processus. Pensez à enregistrer tout ce que vous avez fait!
-Motif: Permet de spécifier le nom de la planification, ce qui sera
-     affiché sur le journal de planification windows.
-
-Licence CC BY NC ND
-Le titulaire des droits autorise l’utilisation de l’œuvre 
-originale à des fins non commerciales, mais n’autorise 
-pas la création d’œuvres dérivés.
+    <value>Restart: The computer will restart after the plannification
+Foce: Force windows to shutdown. Even if an apps prevent windows from
+shutting down, windows will ignore. Save all you work !!
+Reason: Specifies the name of the planification
+Only the hours and the minutes are taken in account, not the complete date.
+Version 5.0, 24/06/18.
 </value>
   </data>
 </root>

@@ -30,7 +30,8 @@ V4 15/03/17:
 + Help window
 * Code optimization
 V5 :
-&+ Label indicating last planification
-&+ Chrono
-&+ English
-&* Uniformization of the code (english)
++ English
+* Fixed crash when planning a shutdown with an hour lower than the current time
+* Fixed reason message
+* Improved interface
+- French
