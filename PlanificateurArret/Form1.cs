@@ -104,14 +104,14 @@ namespace PlanificateurArret
             // Get actual time
             currentHours = DateTime.Now.Hour;
             currentMinutes = DateTime.Now.Minute;
-            currentSeconds = currentHours * 3600 + currentMinutes * 60;
 
             // Get planned time
             plannedMinutes = timePickerr.Value.Minute;
             plannedHours = timePickerr.Value.Hour;
-            //plannedSeconds = timePickerr.Value.Second; used for the chrono
-            int SECONDS_IN_A_DAY = 3600 * 60 * 24;
-            plannedSecondsTotal = mod(((plannedMinutes * 60 + plannedHours * 3600) - currentSeconds), SECONDS_IN_A_DAY);
+
+            int deltaHours = mod(plannedHours - currentHours, 24);
+            int deltaMinutes = mod(plannedMinutes - currentMinutes, 60);
+            plannedSecondsTotal = deltaHours * 3600 + deltaMinutes * 60;
 
             if (plannedSecondsTotal < 60)
             {

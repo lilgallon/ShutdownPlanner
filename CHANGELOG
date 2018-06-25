@@ -35,3 +35,5 @@ V5 :
 * Fixed reason message
 * Improved interface
 - French
+V5.1:
+* Fixed plannification time calculation
